@@ -1,0 +1,604 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="https://milcsirt-tni.mil.id/assets/logo/favicon.ico" type="image/x-icon" />
+    <title>MIL-CSIRT TNI</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.18/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://milcsirt-tni.mil.id/theme-assets/edubin/css/slick.css">
+    <link rel="stylesheet" href="https://milcsirt-tni.mil.id/theme-assets/edubin/css/animate.css">
+    <link rel="stylesheet" href="https://milcsirt-tni.mil.id/theme-assets/edubin/css/nice-select.css">
+    <link rel="stylesheet" href="https://milcsirt-tni.mil.id/theme-assets/edubin/css/jquery.nice-number.min.css">
+    <link rel="stylesheet" href="https://milcsirt-tni.mil.id/theme-assets/edubin/css/magnific-popup.css">
+    <link rel="stylesheet" href="https://milcsirt-tni.mil.id/theme-assets/edubin/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://milcsirt-tni.mil.id/theme-assets/edubin/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://milcsirt-tni.mil.id/theme-assets/edubin/css/default.css">
+    <link rel="stylesheet" href="https://milcsirt-tni.mil.id/theme-assets/edubin/css/style.css">
+    <link rel="stylesheet" href="https://milcsirt-tni.mil.id/theme-assets/edubin/css/responsive.css">
+    <link rel="stylesheet" href="https://milcsirt-tni.mil.id/assets/css/select2.min.css">
+    <link rel="stylesheet" href="https://milcsirt-tni.mil.id/assets/css/ekko-lightbox.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Hall of fame-->
+       <!-- Bootstrap CSS -->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+       <!-- Core CSS -->
+       <link rel="stylesheet" href="/css/style.css">
+       <!-- Boxicons CSS -->
+       <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+       <script nonce="j5hSTe1O5zOX9nvE7odtgJZX3Gne5kvi" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+   <div class="preloader">
+        <div class="loader rubix-cube">
+            <div class="layer layer-1"></div>
+            <div class="layer layer-2"></div>
+            <div class="layer layer-3 color-1"></div>
+            <div class="layer layer-4"></div>
+            <div class="layer layer-5"></div>
+            <div class="layer layer-6"></div>
+            <div class="layer layer-7"></div>
+            <div class="layer layer-8"></div>
+        </div>
+    </div>    
+    <header id="header-part">   
+        <div class="header-top d-none d-md-block">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="header-contact text-lg-left text-center">
+                            <ul>
+                                <li><img src="https://milcsirt-tni.mil.id/theme-assets/edubin/images/all-icon/call.png" alt="icon"><span>021-84595695</span></li>
+                                <li><img src="https://milcsirt-tni.mil.id/theme-assets/edubin/images/all-icon/email.png" alt="icon"><span>satsiber@mabestni.mil.id</span></li>
+                                <!-- <li><img src="https://milcsirt-tni.mil.id/theme-assets/edubin/images/all-icon/map.png" alt="icon"><span>Gd. Satsiber TNI, Mabes TNI Cilangkap, Jaktim</span></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="header-social text-lg-right text-center">
+                            <ul>
+                                <li><a href="https://www.facebook.com/Satsiber-TNI-110882128537630"></i>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                      </svg></a>
+                                </li>
+                                <li><a href="https://twitter.com/satsiber">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                                      </svg></a>  
+                                </li>
+                                <li><a href="https://www.instagram.com/satsiber_tni"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                  </svg> </a>                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- header top -->
+        <div class="navigation navigation-2">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-lg-11 col-md-10 col-sm-9 col-9">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="https://milcsirt-tni.mil.id/">
+                                <img src="https://milcsirt-tni.mil.id/assets/logo/1.png" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a  href="https://milcsirt-tni.mil.id/">Beranda</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#">Tentang Kami</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="https://milcsirt-tni.mil.id/portal/profil">Profil</a></li>
+                                            <li><a href="https://milcsirt-tni.mil.id/portal/visidanmisi">Visi Misi</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="https://milcsirt-tni.mil.id/portal/rfc2350">RFC 2350</a>
+                                        <ul class="sub-menu">
+                                            
+                                            <li><a href='https://milcsirt-tni.mil.id/./assets/rfc2350/RFC2350-Mil-CSRT-TNI.pdf' target='_blank'>Bahasa Indonesia</a></li><li><a href='https://milcsirt-tni.mil.id/./assets/rfc2350/rfc2350-en.pdf' target='_blank'>English</a></li>                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#">Layanan</a>
+                                        <ul class="sub-menu">
+                                        	<li>
+		                                        <a href="https://milcsirt-tni.mil.id/portal/aduan">Aduan Siber</a>
+		                                    </li>
+                                            <li><a href="https://milcsirt-tni.mil.id/portal/panduan">Pedoman Teknis</a></li>
+                                            
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <a href="https://milcsirt-tni.mil.id/portal/event">Event</a>
+                                        <ul class="sub-menu">
+                                           <li>
+                                               <a href="https://milcsirt-tni.mil.id/portal/event">Kegiatan</a>
+                                           </li>
+                                           <li><a href="https://milcsirt-tni.mil.id/portal/galeri">Galeri</a></li>             
+                                        </ul>    
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="https://milcsirt-tni.mil.id/portal/kontak">Hubungi Kami</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="halloffame.html">Hall of fame</a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </nav> <!-- nav -->
+                    </div>
+                    <div class="col-lg-1 col-md-2 col-sm-3 col-3">
+                        <div class="right-icon text-right">
+                            <ul>
+                                <li><a href="#" id="search">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                                      </svg>
+                                </a></li>
+                            </ul>
+                        </div> <!-- right icon -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div>
+    </header>
+    <div class="search-box">
+        <div class="serach-form">
+            <div class="closebtn">
+                <span></span>
+                <span></span>
+            </div>
+            <form action="https://milcsirt-tni.mil.id/portal/search" method='get'>
+                <input type="text" name="key" placeholder="Search by keyword">
+                <button><i class="fa fa-search"></i></button>
+            </form>
+        </div> <!-- serach form -->
+    </div> <section id="slider-part" class="slider-active">
+        <div class="single-slider slider-2 bg_cover" style="background-image: url('ccna_cyberops.jpg'); " data-overlay="4">
+            <div class="container" >
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="slider-cont">
+                            <h1 data-animation="bounceInLeft" data-delay="1s" style="color:white;font-size:6vh">Cybersecurity is Not Only a Quest of Developing Defensive Technologies but Offensive Technologies As Well                            </h1>
+                            <h3 data-animation="bounceInRight" data-delay="1s" style="color:white;font-size:4vh">Donald Trump</h3>
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+        </div> 
+    </section>
+ <section id="news-part" class="pt-115 pb-110">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-title pb-50">
+                        <h5>Artikel & Berita</h5>
+                        <h2>Info Siber</h2>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="singel-news mt-30">
+                        <!-- <div class="news-thum pb-25"><img src="" alt="News" style="max-width: 570px;max-height: 400px"> 
+                        </div> -->
+                        <div class="news-cont">
+                            <ul>
+                                <li><a href="#"><svg class="mr-1 mb-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                                  </svg>2022-06-20</a></li>
+                                <!-- <li><a href="#"> <span>Oleh&nbsp;&nbsp;&nbsp;</span>Admin</a></li> -->
+                            </ul> 
+                            <a href='https://milcsirt-tni.mil.id/portal/berita/16'><h3>Kemenkumham Terima Lebih Dari 385.980 Serangan Siber Dalam 6 Bulan</h3></a>
+                            <p>
+                                <p></p><p></p><p><img src="https://cyberthreat.id/gbr_artikel/unnamed.webp"><br></p>
+<div class="post-text text-style">
+
+<p><strong>milcsirt-tni.mil.id</strong> - Sekretaris Jenderal (Sekjen) Kementerian Hukum dan Hak Asasi Manusia (Kemenkumham), Andap Budhi Revianto menyebutkan, dalam kurun waktu enam bulan terakhir, Kemenkumham mendapat serangan siber sebanyak 385.980 kali.</p>
+
+<p>“Rata-rata dalam sehari serangan yang diterima oleh Kemenkumham sekitar 2.150 serangan,” ujar Andap dalam keterangan pers yang diterima, Selasa (14/6). &nbsp;</p>
+
+<p>Berdasarkan data dari Pusat Data dan Teknologi Informasi (Pusdatin) Kemenkumham, serangan siber paling banyak menyasar&nbsp;website&nbsp;instansi, aplikasi persuratan internal dan aplikasi kepegawaian. Sementara itu, khusus&nbsp;website&nbsp;Kemenkumham, serangan di antaranya berupa&nbsp;malicious session&nbsp;sebanyak 71 persen,&nbsp;server side code injection&nbsp;21 persen,&nbsp;malicious scam&nbsp;6 persen.</p>
+
+<p>“Serangan terbesar berasal dari Amerika Serikat, yakni mencapai 71 persen, dan berhasil kami atasi,” kata dia.</p>
+
+<p>Andap mengatakan serangan siber tersebut tidak hanya datang dari dalam negeri namun juga berasal dari luar negeri. Sedangkan untuk motif dari serangan tersebut cukup beragam, mulai dari sekadar coba-coba hingga motif ekonomi, politik dan ideologi.</p>
+
+<p>“Kita harus siap dan tanggap menghadapi intoleransi, radikalisme, ancaman terorisme serta menghadapi ancaman kejahatan lainnya,” terang Andap.</p>
+
+<p>Untuk menangani berbagai serangan siber tersebut, Kemenkumham tengah menyiapkan aplikasi tim tanggap insiden siber atau&nbsp;Computer Security Incident Response Team&nbsp;(CSIRT) untuk mengantisipasi serangan siber ke depan. Sistem tersebut diharapkannya dapat menangkis segala bentuk ancaman serta tantangan serangan siber, khususnya di lingkungan Kemenkumham, dan umumnya untuk melindungi masyarakat.</p>
+
+<p>"Pembentukan CSIRT untuk mencegah terjadinya serangan siber yang kian massif,” kata dia.</p>
+
+<p>CSIRT merupakan organisasi atau tim yang bertanggung jawab untuk menerima, meninjau dan menanggapi laporan serta aktivitas insiden keamanan siber. CSIRT memiliki beberapa fungsi strategis dalam keamanan siber, di antaranya memberikan layanan reaktif mulai dari koordinasi insiden,&nbsp;triase&nbsp;insiden, dan resolusi insiden.</p>
+
+<p>Kemenkumham sendiri dipilih sebagai satu dari 25 kementerian/lembaga yang dipercaya untuk membentuk CSIRT. Dengan tujuan &nbsp; utamanya adalah untuk melindungi kepentingan rakyat, serta melindungi kepentingan bangsa dan negara</p>
+
+<p>“CSIRT dibentuk sebagai wujud perlindungan dan kedaulatan data,” tutup dia.</p>
+
+						</div><!--  <a href="https://milcsirt-tni.mil.id/portal/berita/16">Selengkapnya &raquo;</a> -->
+                            </p>
+                        </div>
+                    </div> <!-- singel news -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="singel-news news-list">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="news-thum mt-30">
+                                    <img src="https://milcsirt-tni.mil.id/assets/placeholder/2.jpg" alt="News" style="max-width: 170px;max-height: 138px">
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="news-cont mt-30">
+                                    <ul>
+                                        <li><a href="#"><svg class="mr-1 mb-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                                  </svg>2022-06-20 </a></li>
+                                        <li><a href="#"> <span>Oleh &nbsp;</span>Admin</a></li>
+                                    </ul>
+                                    <a href="https://milcsirt-tni.mil.id/portal/berita/24"><h3>Sejumlah Aplikasi Di Google Play Store Curi Data Pengguna</h3></a>
+                                    <p>
+                                        Peneliti keamanan siber dari Dr.Web menemukan sejumlah aplikasi di Google Play Store mencuri data pengguna. ...
+                                        <a href="https://milcsirt-tni.mil.id/portal/berita/24">Selengkapnya &raquo;</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div> 
+                            <div class="row">
+                            <div class="col-sm-4">
+                                <div class="news-thum mt-30">
+                                    <img src="https://milcsirt-tni.mil.id/assets/placeholder/3.jpg" alt="News" style="max-width: 170px;max-height: 138px">
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="news-cont mt-30">
+                                    <ul>
+                                        <li><a href="#"><svg class="mr-1 mb-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                                  </svg>2022-06-20 </a></li>
+                                        <li><a href="#"> <span>Oleh &nbsp;</span>Admin</a></li>
+                                    </ul>
+                                    <a href="https://milcsirt-tni.mil.id/portal/berita/32"><h3>Penguatan Keamanan Siber Di Sektor Strategis</h3></a>
+                                    <p>
+                                        Sebagaimana pada tulisan sebelumnya tentang pelindungan infrastruktur informasi vital (IIV), maka sejak tanggal 24 Mei 2022 yang baru lalu, Peraturan  ...
+                                        <a href="https://milcsirt-tni.mil.id/portal/berita/32">Selengkapnya &raquo;</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div> 
+                            <div class="row">
+                            <div class="col-sm-4">
+                                <div class="news-thum mt-30"><img src="https://milcsirt-tni.mil.id/assets/placeholder/2.jpg" alt="News" style="max-width: 170px;max-height: 138px"></div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="news-cont mt-30">
+                                    <ul>
+                                        <li><a href="#"><svg class="mr-1 mb-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                                  </svg>2022-06-20 </a></li>
+                                        <li><a href="#"> <span>Oleh &nbsp;</span>Admin</a></li>
+                                    </ul>
+                                    <a href="https://milcsirt-tni.mil.id/portal/berita/21"><h3>Apple Bug Bounty – How I Got $6000 From Apple Security Bounty</h3></a>
+                                    <p>
+                                        Sedikit penggalan cerita dari salah satu personel Satsiber TNI yang mendapatkan reward 6000 USD dari program Bug Bounty milik Apple. ...
+                                        <a href="https://milcsirt-tni.mil.id/portal/berita/21">Selengkapnya &raquo;</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div> 
+                        <br><br>
+                        <div class="row">
+                            <div class="col-sm-7">
+                            </div>
+                            <div class="col-sm-5">
+                                <a href="https://milcsirt-tni.mil.id/portal/semua/1"><button class="main-btn">Index Berita</button></a>
+                            </div>    
+                        </div>
+                    </div> 
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+    <section id="course-part" class="pt-115 pb-115 gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-title pb-45">
+                        <h5>Ancaman & Kerentanan</h5>
+                        <h2>Keamanan Siber</h2>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row course-slied mt-30">
+                                <div class="col-lg-4">
+                    <div class="singel-course-2">
+                        <div class="thum">
+                            <div class="image">
+                                <img src="https://milcsirt-tni.mil.id/assets/placeholder/3.jpg" alt="Course" style="max-width: 370px;max-height: 252px">
+                            </div>
+                            
+                            <div class="course-teacher">
+                                <div class="name" style="margin-top:10px">
+                                    <a href="https://milcsirt-tni.mil.id/portal/berita/21"><h6>Apple Bug Bounty – How I Got $6000 From Apple Security Bounty</h6></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <h7>
+                                Sedikit penggalan cerita dari salah satu personel Satsiber TNI yang mendapatkan reward 6000 USD dari...<br><br>
+                                <a align="right" href="https://milcsirt-tni.mil.id/portal/berita/21">Selengkapnya &raquo;</a>
+                            </h7>
+                        </div>
+                    </div> <!-- singel course -->
+                </div>
+                            <div class="col-lg-4">
+                    <div class="singel-course-2">
+                        <div class="thum">
+                            <div class="image">
+                                                                <img src="https://cyberthreat.id/gbr_artikel/man-hand-typing-keyboard-input-code-register-system_42708-293_253.jpg" alt="Course" style="max-width: 370px;max-height: 252px">
+                            </div>
+                            
+                            <div class="course-teacher">
+                                <div class="name" style="margin-top:10px">
+                                    <a href="https://milcsirt-tni.mil.id/portal/berita/34"><h6>Kata Sandi 8 Karakter hanya Dipecahkan Satu Jam dalam Brute Force Attack</h6></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <h7>
+                                Seberapa kuat kata sandi Anda? Apakah kata sandi Anda sudah mencakup delapan karakter? Anda jangan m...<br><br>
+                                <a align="right" href="https://milcsirt-tni.mil.id/portal/berita/34">Selengkapnya &raquo;</a>
+                            </h7>
+                        </div>
+                    </div> <!-- singel course -->
+                </div>
+                            <div class="col-lg-4">
+                    <div class="singel-course-2">
+                        <div class="thum">
+                            <div class="image">
+                                <img src="https://cyberthreat.id/gbr_artikel/ponsel_176_133.jpg" alt="Course" style="max-width: 370px;max-height: 252px">
+                            </div>
+                            
+                            <div class="course-teacher">
+                                <div class="name" style="margin-top:10px">
+                                    <a href="https://milcsirt-tni.mil.id/portal/berita/35"><h6>Lima Fitur Baru Truecaller, Salah Satunya Smart SMS</h6></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <h7>
+                                Truecaller, aplikasi pelacak nomor telepon, memperkenalkan pembaruan baru pada aplikasi untuk mening...<br><br>
+                                <a align="right" href="https://milcsirt-tni.mil.id/portal/berita/35">Selengkapnya &raquo;</a>
+                            </h7>
+                        </div>
+                    </div> <!-- singel course -->
+                </div>
+                            <div class="col-lg-4">
+                    <div class="singel-course-2">
+                        <div class="thum">
+                            <div class="image">
+                                <img src="https://cyberthreat.id/gbr_artikel/5759575_77.jpg" alt="Course" style="max-width: 370px;max-height: 252px">
+                            </div>
+                            <div class="course-teacher">
+                                <div class="name" style="margin-top:10px">
+                                    <a href="https://milcsirt-tni.mil.id/portal/berita/36"><h6>Fitur ‘Hapus 15 Menit Terakhir’ Riwayat Pencarian Dirilis di Android</h6></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <h7>
+                                Google, perusahaan internet AS, merilis fitur “hapus riwayat” yang akan menghapus permintaan pen...<br><br>
+                                <a align="right" href="https://milcsirt-tni.mil.id/portal/berita/36">Selengkapnya &raquo;</a>
+                            </h7>
+                        </div>
+                    </div> <!-- singel course -->
+                </div>
+                            <div class="col-lg-4">
+                    <div class="singel-course-2">
+                        <div class="thum">
+                            <div class="image">
+                                <img src="https://cyberthreat.id/gbr_artikel/programmers-working-computer-program_53876-23532_46.jpg" alt="Course" style="max-width: 370px;max-height: 252px">
+                            </div>
+                            
+                            <div class="course-teacher">
+                                <div class="name" style="margin-top:10px">
+                                    <a href="https://milcsirt-tni.mil.id/portal/berita/19"><h6>Bug Bounty, Dunia Halal Hacker Dapatkan Uang Miliaran</h6></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <h7>
+                                Pertama kali mendapatkan sebuah celah keamanan (bug) pada sebuah aplikasi , Kattie Paxton-Fear (@Ins...<br><br>
+                                <a align="right" href="https://milcsirt-tni.mil.id/portal/berita/19">Selengkapnya &raquo;</a>
+                            </h7>
+                        </div>
+                    </div> <!-- singel course -->
+                </div>
+            </div> <!-- course slied -->
+        </div> <!-- container -->
+    </section>
+    
+<!--Text Batas!! -->
+<footer id="footer-part">
+        <div class="footer-top pt-40 pb-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-about mt-40">
+                            <p>Military Computer Security Incident Response Team<br>Tentara Nasional Indonesia</p>
+                            <ul class="mt-20">
+                                <li><a href="https://www.facebook.com/Satsiber-TNI-110882128537630"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                  </svg></a></li>
+                                <li><a href="https://twitter.com/satsiber"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                                  </svg></a></li>
+                                <li><a href="https://www.instagram.com/satsiber_tni/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                  </svg></a></li>
+                            </ul>
+                        </div> <!-- footer about -->
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="footer-link mt-40">
+                            <div class="footer-title pb-25">
+                                <h6>Peta Situs</h6>
+                            </div>
+                            <ul>
+                                <li><a href="https://milcsirt-tni.mil.id/portal"><svg class="mr-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                  </svg>Beranda</a></li>
+                                <li><a href="https://milcsirt-tni.mil.id/portal/profil"><svg class="mr-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                  </svg>Profil</a></li>
+                                <li><a href="https://milcsirt-tni.mil.id/portal/visidanmisi"><svg class="mr-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                  </svg>Visi Misi</a></li>
+                                <li><a href="https://milcsirt-tni.mil.id/portal/semua/1"><svg class="mr-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                  </svg>Berita</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="https://milcsirt-tni.mil.id/portal/event"><svg class="mr-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                  </svg>Event</a></li>
+                                <li><a href="https://milcsirt-tni.mil.id/portal/galeri"><svg class="mr-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                  </svg>Galeri</a></li>
+                                <li><a target="_blank" href="https://milcsirt-tni.mil.id/assets/rfc2350/rfc2350-id.pdf"><svg class="mr-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                  </svg>RFC 2350 (ID)</a></li>
+                                <li><a target="_blank" href="https://milcsirt-tni.mil.id/assets/rfc2350/rfc2350-en.pdf"><svg class="mr-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                  </svg>RFC 2350 (EN)</a></li>
+                                
+                            </ul>
+                        </div> <!-- footer link -->
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="footer-link support mt-40">
+                            <div class="footer-title pb-25">
+                                <h6>Dukungan</h6>
+                            </div>
+                            <ul>
+                                <li><a href="https://milcsirt-tni.mil.id:8000/osticket"><svg class="mr-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                  </svg>Aduan Siber</a></li>
+                                <li><a href="https://milcsirt-tni.mil.id/portal/panduan"><svg class="mr-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                  </svg>Pedoman Teknis</a></li>
+                            </ul>
+                        </div> <!-- support -->
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-address mt-40">
+                            <div class="footer-title pb-25">
+                                <h6>Hubungi Kami</h6>
+                            </div>
+                            <ul>
+                                <li >
+                                    <p class="text-white"> <svg class="bg-gradient-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                                    </svg>  Mabes TNI, Cilangkap, Jaktim, Indonesia </p>
+                                </li>
+                                <li>
+                                    <p class="text-white"><svg class="bg-gradient-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                                      </svg>  021-84595695</p>
+                                </li>
+                                <li>
+                                    <p class="text-white">
+                                        <svg class="bg-gradient-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                                          </svg>  satsiber@mabestni.mil.id</p>
+                                </li>
+                                <li >
+                                    <p style="color:white">Silahkan gunakan PGP untuk komunikasi e-mail terenkripsi.<br>
+                                    PGP Key dapat diunduh di <a href="https://ssctf.id/RFC2350Mil-CSIRT.pdf" target="_blank">sini</a>.</p>
+                                </li>
+                            </ul>
+                        </div> <!-- footer address -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer top -->
+        
+        <div class="footer-copyright pt-10 pb-25">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright text-md-right text-center pt-15" style="color:white;">
+                           Copyright 2021&copy; Satsiber TNI
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer copyright -->
+    </footer>
+    
+    <!--====== FOOTER PART ENDS ======-->
+   
+    <!--====== BACK TO TP PART START ======-->
+    
+    <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+    
+    <!--====== BACK TO TP PART ENDS ======-->
+   
+    <!--====== jquery js ======-->
+    <script src="https://milcsirt-tni.mil.id/theme-assets/edubin/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="https://milcsirt-tni.mil.id/theme-assets/edubin/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="https://milcsirt-tni.mil.id/theme-assets/edubin/js/bootstrap.min.js"></script>
+    <script src="https://milcsirt-tni.mil.id/theme-assets/edubin/js/slick.min.js"></script>
+    <script src="https://milcsirt-tni.mil.id/theme-assets/edubin/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://milcsirt-tni.mil.id/theme-assets/edubin/js/waypoints.min.js"></script>
+    <script src="https://milcsirt-tni.mil.id/theme-assets/edubin/js/jquery.counterup.min.js"></script>
+    <script src="https://milcsirt-tni.mil.id/theme-assets/edubin/js/jquery.nice-select.min.js"></script>
+    <script src="https://milcsirt-tni.mil.id/theme-assets/edubin/js/jquery.nice-number.min.js"></script>
+    <script src="https://milcsirt-tni.mil.id/theme-assets/edubin/js/jquery.countdown.min.js"></script>
+    <script src="https://milcsirt-tni.mil.id/theme-assets/edubin/js/validator.min.js"></script>
+    <script src="https://milcsirt-tni.mil.id/theme-assets/edubin/js/ajax-contact.js"></script>
+    <script src="https://milcsirt-tni.mil.id/theme-assets/edubin/js/main.js"></script>
+    <script src="https://milcsirt-tni.mil.id/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="https://milcsirt-tni.mil.id/global_assets/js/plugins/tables/datatables/datatables.min.js"></script>
+
+    <script src="https://milcsirt-tni.mil.id/global_assets/js/demo_pages/datatables_basic.js"></script>
+         
+    <script src="https://milcsirt-tni.mil.id/assets/js/ekko-lightbox.min.js"></script>
+    <!-- <script src="https://milcsirt-tni.mil.id/assets/js/ekko-lightbox.min.js.map"></script> -->
+    
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js.map"></script> -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ"></script>
+    <script src="https://milcsirt-tni.mil.id/theme-assets/edubin/js/map-script.js"></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ"></script>
+    <script src="https://milcsirt-tni.mil.id/theme-assets/edubin/js/map-script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <script>
+        $(document).ready(function() {
+            $('#data_table').DataTable();
+            $("tbody>tr:even").css("background-color", "#F4F4F8");
+            $("tbody>tr:odd").css("background-color", "#EFF1F1");
+            $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+        } );
+    </script>
+     
+</body>
+
+</html>
